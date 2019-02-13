@@ -1,0 +1,56 @@
+div.container {
+     width: 100%;
+     border: 1px solid gray;
+} 
+
+div.color {
+	background-color: white;
+}
+
+body.color {
+	background-color: Cornsilk;
+}
+header, footer {
+     padding: 1em;
+     color: white;
+     background-color: SteelBlue;
+     clear: left;
+     text-align: center;
+} 
+nav {
+     float: left;
+     max-width: 170px;
+     margin: 0;
+     padding: 1em;
+}
+nav ul {
+     nav-style-type: none;
+     padding: 0;
+} 
+nav ul a {
+     text-decoration: none;
+} 
+article {
+     margin-left: 170px;
+     border-left: 2px solid gray;
+     padding: 1em;
+     overflow: hidden;
+
+	 -moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+article h1 {
+	margin-bottom; 0.35;
+}
+article h2 {
+	margin-bottom: 0.35;
+}
+article img {
+	float: left;
+	margin: 0 1.5em 1em 0;
+}
+article p {
+	margin-bottom: .5em;
+	font-size: 100%;
+}

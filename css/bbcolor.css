@@ -1,0 +1,48 @@
+<style>
+html {
+	height: 100%
+}
+body {
+	background-color: bisque;
+}
+h1 {
+	  color: CornflowerBlue;
+	  text-align: center;
+	  width: thin;
+	  padding: 10px;
+	  border-bottom-style: solid;
+	  border-color: orange;
+	  margin: 0;
+	  
+	  
+	  
+}
+
+h2 {
+	text-align: left;
+	color: red;
+	border-bottom-style: solid;
+	border-bottom-color: red;
+	width: thin;
+	margin: 0;
+	font-family: Verdana;
+	font-size: 25;
+	font-weight: bold;
+	
+}
+p {
+	  
+	  color: brown;
+	  margin: 10px 15px 10px 10px;
+	  font-family: Verdana;
+	  font-style: oblique;
+	  font-size: 18px;
+	  width: 30px 30px 30px 30px;
+	  padding: 15px 15px 15px 15px;
+	  border-style: solid;
+	  border-color: bisque;
+	  background-color: bisque;
+	  
+} 
+
+</style>

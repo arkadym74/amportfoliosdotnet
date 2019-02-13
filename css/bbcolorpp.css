@@ -1,0 +1,33 @@
+<style>
+html {
+	height: 100%
+}
+body {
+	background-color: DarkKhaki;
+}
+h1 {
+	  color: DarkSlateGray;
+	  text-align: center;
+	  width: thin;
+	  padding: 10px;
+	  border-bottom-style: solid;
+	  border-bottom-color: green;
+	  margin: 0;
+}
+h2 {
+	  color: DarkSlateGray;
+	  text-align: center;
+}
+h3 {
+	color: DarkSlateGray;
+	text-align: center;
+}
+p {
+	  color: FireBrick;
+	  margin-left: 30px;
+	  font-family: Verdana;
+	  font-style: oblique;
+	  font-size: 18px;
+	  text-align: center;
+} 
+</style>

@@ -1,0 +1,35 @@
+div.container {
+     width: 100%;
+     border: 0px solid gray;
+} 
+
+#nav
+    {
+        float: right;
+    }
+        #nav ul
+        {
+            list-style: none;
+        }
+    @media screen and (min-width: 400px) and (orientation: portrait)
+        {
+                #nav li
+                {
+                    float: right;
+                    margin: 0 0 0 .5em;
+                    border:1px solid #000000;
+                }
+        }
+    @media screen and (min-width: 800px)
+        {
+            #nav
+            {
+                width: 200px;
+            }
+               #nav li
+                {
+                    float: left;
+                    margin: 0 0 0 .5em;
+                    border: none;               
+                }
+        }

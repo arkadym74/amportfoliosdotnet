@@ -1,0 +1,228 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*type selectors*/
+article, aside, figure, footer, header, nav, section
+{
+	
+	diplay:block;
+	
+}
+html {
+
+background-image: -moz-linear-gradient(top, white 0%, #facd8a 100%);
+
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 87.5%;
+	width: 986px;
+	background-color: Bisque;
+	margin: 15px auto;
+	padding: 15px 25px;
+	border: 1.5px solid green;
+}
+article, aside, h1, h2, p, ul, nav {
+		margin: 0;
+		padding: 0;
+}
+article, aside {
+	margin-top: 1.5em;
+	margin-bottom: 1em;
+}
+
+h1 { font-size: 200%;}
+h2 { font-size:	125%;}
+
+a {font-weight: bold; }
+a:link {color: green;}
+a:visited {color: blue;}
+a:hover, a:focus { color: red;}
+
+ul {
+	 margin-left: 1.3em;
+	 margin-bottom: 1.5em;
+	 
+}
+nav ul a {
+	text-decoration: none;
+}
+li { padding-bottom: 0.25; }
+p{ padding-bottom: 0.5; }
+
+em { font-weight: bold;}
+
+/*the styles for the header */
+header {
+	padding-bottom: 2em;
+	border-bottom: 2px solid green;	
+}
+header h1 {
+	color: brown;
+	text-shadow: 2px 3px 0 green;
+	margin-left: 120px;
+	margin-bottom: 0.25em
+}
+header h2 {
+	color: DarkOliveGreen;
+	font-style: italic;
+	margin-left: 120px;
+}
+header img {
+	float: left;
+}
+article {
+	width: 600px;
+	border-right: 2px solid green;
+	padding-right: 20px;
+	float: right;
+	
+	-moz-column-count: 2;
+	-webkit-column-count: 2;
+	column-count: 2;
+}
+article h1 {
+	margin-bottom; 0.35;
+}
+article h2 {
+	margin-bottom: 0.35;
+}
+article img {
+	float: left;
+	margin: 0 1.5em 1em 0;
+}
+article p {
+	margin-bottom: .5em;
+	font-size: 100%;
+}
+
+/*styles for the sidebar*/
+aside {
+	width: 340px;
+	float: right;
+	padding-left: 20px;
+}
+aside h1 {
+	font-size: 125%;
+	padding-bottom: .5em;
+}
+aside h2 {
+	font-size: 100%;
+	color: brown;
+	padding-bottom: .5em;
+}
+aside p {
+	margin-bottom: .5em;
+}
+/* the styles for the footer*/
+footer {
+	clear: both;
+	margin-top: 1em;
+	border-top: 2px solid green;
+	padding-top: 0.7em;
+}
+footer p {
+	font-size: 90%;
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,92 @@
+div.container {
+     width: 100%;
+     border: 1px solid gray;
+} 
+
+div.color {
+	background-color: white;
+}
+
+body.color {
+	background-color: Cornsilk;
+}
+header, footer {
+     padding: 1em;
+     color: white;
+     background-color: MidnightBlue;
+     clear: left;
+     text-align: center;
+} 
+nav {
+     float: left;
+     max-width: 170px;
+     margin: 0;
+     padding: 1em;
+}
+nav ul {
+     nav-style-type: none;
+     padding: 0;
+} 
+nav ul a {
+     text-decoration: none;
+} 
+article {
+     margin-left: 170px;
+     border-left: 2px solid gray;
+     padding: 1em;
+     overflow: hidden;
+	
+	 -moz-column-count: 3;
+	-webkit-column-count: 3;
+	column-count: 3; 
+}	 
+article h1 {
+	margin-bottom; 0.35;
+}
+article h2 {
+	margin-bottom: 0.35;
+}
+article img {
+	float: left;
+	margin: 0 1.5em 1em 0;
+}
+article p {
+	margin-bottom: .5em;
+	font-size: 100%;
+}
+/*Thumbnails Styles*/
+.thumbnails {
+	margin-right: -15px;
+}
+
+.thumbnails a {
+	float: left;
+	width: auto;
+	padding-right: 25px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+}
+
+.thumbnails img {
+	display: block;
+	transition: all .2s ease-in-out;
+}
+
+.thumbnails:hover img {
+	opacity: .6;
+	transform: scale(.92);
+
+}
+
+.thumbnails img:hover {
+	opacity: 1;
+	transform: scale(1) rotate(2deg);
+	box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
