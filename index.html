@@ -12,9 +12,12 @@
 	<script type="text/javascript" src="script/calendar.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/calstyle.css">
 	<link rel="stylesheet" type="text/css" href="css/layout_r.css">
-	<link rel="stylesheet" type="text/css" href="css/sidemenu.css">
-	<link rel="stylesheet" type="text/css" href="css/responsive_large_display_home.css" media="screen and (max-width: 2560px)">
-	<link rel="stylesheet" type="text/css" href="css/responsive_home.css" media="screen and (max-width: 768px)">
+	<!--<link rel="stylesheet" type="text/css" href="css/sidemenu.css">-->
+	<!--<link rel="stylesheet" type="text/css" href="css/responsive_large_display_home.css" media="screen and (max-width: 2560px)">-->
+
+	<!-- <link rel="stylesheet" type="text/css" href="css/responsive_home.css" media="screen and (max-width: 768px)"> -->
+
+	<link rel="stylesheet" type="text/css" href="css/navbarmenu.css">
 <!-- <style>	
 	div.static {
     position: static;
@@ -35,27 +38,27 @@
 		</div>
 	</hgroup>
   </header>
+  <div class="navbar">
+  <!--<a href="#portfolio portal">Portfolio Portal</a>-->
+  <div class="dropdown">
+  	<button class="dropbtn">Portals
+  		<i class="fa fa-caret-down"></i>
+  	</button>
+  	<div class="dropdown-content">
+  		<a href="personalportfolio.html">Personal Portfolio Portal</a>
+  		<a href="references.html">References Portal</a>
+  		<a href="contactme/formpage.html">Contact</a>
+  	</div>
+  </div>
+
+
+  </div>
   <aside>
-     <div class = "mobile_h1">	
-    <h1 align="right">Visit Our Community</h1>
-	</div>
-	<div class = "mobile_h2">
-	<h2 align="right">(click on a link bellow)</h2>
-	</div>
-	<nav id="divMenu" class = "nav">
-	<div class="static">
-		<ul>
-			<li style="border-bottom: 1px solid gray"><a href="personalportfolio.html">Portfolio Portal</a></li>
-			<li style="border-bottom: 1px solid gray"><a href="references.html">References</a></li>
-			<li style="border-bottom: 1px solid gray"><a href="contactme/formpage.html">Contact Me</a></li>
-		</ul>
-		</div>
-	</nav>
-	<div id="calendar">
-            <p id="calendar-day"></p>
-            <p id="calendar-date"></p>
-            <p id="calendar-month-year"></p>
-	</div>
+  <div id="calendar">
+      <p id="calendar-day"></p>
+      <p id="calendar-date"></p>
+      <p id="calendar-month-year"></p>
+  </div>
   </aside>
   <article class = "mobile-colapse">
 	<img src="images/briefcase.jpg" alt="Portfolio Image">

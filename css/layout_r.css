@@ -59,6 +59,7 @@ em { font-weight: bold;}
 header {
 	padding-bottom: 2em;
 	border-bottom: 2px solid green;	
+	text-align: center;
 }
 header h1 {
 	color: brown;
@@ -73,6 +74,7 @@ header h2 {
 }
 header img {
 	float: left;
+	width: 50px;
 }
 article {
 	width: 600px;
@@ -93,6 +95,7 @@ article h2 {
 article img {
 	float: left;
 	margin: 0 1.5em 1em 0;
+	width: 100px;
 }
 article p {
 	margin-bottom: .5em;
