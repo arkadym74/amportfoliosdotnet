@@ -32,16 +32,18 @@ nav ul a {
 } 
 article {
      margin-left: 170px;
-     border-left: 2px solid gray;
-     padding: 1em;
+     border-left: 3px solid gray;
+     padding: 4em;
      overflow: hidden;
 
-	 -moz-column-count: 2;
-	-webkit-column-count: 2;
-	column-count: 2;
+	 -moz-column-count: 1;
+	-webkit-column-count: 1;
+	column-count: 1;
 }
 article h1 {
-	margin-bottom; 0.35;
+	margin-bottom: 0.35;
+    border: 1px solid white;
+
 }
 article h2 {
 	margin-bottom: 0.35;
@@ -49,15 +51,20 @@ article h2 {
 article img {
 	float: left;
 	margin: 0 1.5em 1em 0;
+    border: 1px solid grey;
+    border-radius: 10px;
 }
 article p {
-	margin-bottom: .5em;
+	margin-bottom: 0.5em;
 	font-size: 100%;
+    border-bottom: 4px solid coral;
+    border-right: 4px solid coral;
+
 }
 
 .center{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 80%;
 }
