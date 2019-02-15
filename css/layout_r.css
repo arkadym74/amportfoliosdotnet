@@ -23,7 +23,7 @@ body {
 	background-color: Bisque;
 	margin: 15px auto;
 	padding: 15px 25px;
-	border: 1.5px solid green;
+	border: 5px solid black;
 }
 article, aside, h1, h2, p, ul, nav {
 		margin: 0;
@@ -58,7 +58,7 @@ em { font-weight: bold;}
 /*the styles for the header */
 header {
 	padding-bottom: 2em;
-	border-bottom: 2px solid green;	
+	border-bottom: 5px solid black;	
 	text-align: center;
 }
 header h1 {
@@ -76,9 +76,14 @@ header img {
 	float: left;
 	width: 50px;
 }
+
+p{
+ color: brown;
+}
+
 article {
 	width: 600px;
-	border-right: 2px solid green;
+	border-right: 5px solid black;
 	padding-right: 20px;
 	float: right;
 	
@@ -104,9 +109,9 @@ article p {
 
 /*styles for the sidebar*/
 aside {
-	width: 340px;
+	width: 200px;
 	float: right;
-	padding-left: 20px;
+	padding-left: 90px;
 }
 aside h1 {
 	font-size: 125%;
@@ -124,12 +129,13 @@ aside p {
 footer {
 	clear: both;
 	margin-top: 1em;
-	border-top: 2px solid green;
+	border-top: 5px solid black;
 	padding-top: 0.7em;
+	text-transform: uppercase;
 }
 footer p {
 	font-size: 90%;
-	text-align: right;
+	text-align: center;
 }
 
 
