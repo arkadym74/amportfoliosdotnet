@@ -36,3 +36,16 @@ article {
      padding: 1em;
      overflow: hidden;
 }	
+
+article img {
+     width: 400px;
+}
+
+article h1 {
+     border-bottom: 2px solid blue;
+     display: inline-block;
+     border-radius: 2px;
+
+}
+
+
