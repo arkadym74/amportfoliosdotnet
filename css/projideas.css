@@ -1,19 +1,19 @@
 div.container {
      width: 100%;
-     border: 1px solid gray;
+     /*border: 1px solid gray;*/
 } 
 
-div.color {
-	background-color: white;
+div {
+	background-color: coral;
 }
 
-body.color {
-	background-color: Cornsilk;
+body{
+	background-color: coral;
 }
 header, footer {
      padding: 1em;
      color: white;
-     background-color: OliveDrab;
+     background-color: #000000;
      clear: left;
      text-align: center;
 } 
@@ -36,3 +36,7 @@ article {
      padding: 1em;
      overflow: hidden;
 }	 
+
+article img {
+     width: 350px;
+}
