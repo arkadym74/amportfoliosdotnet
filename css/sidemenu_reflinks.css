@@ -1,49 +1,56 @@
-/*divMenu */
-#divMenu, ul, li, li li {
-    margin: 0;
-    padding: 0; }
-
-#divMenu {
-    background-color:#FF9933;
-    height:75px;
-    width:170px;
-    float:right; }
-
-#divMenu ul {
-    line-height: 25px; }
-
-#divMenu li {
-    list-style: none;
-    position: relative;
-    background:#ebb659; }
-
-#divMenu li li {
-   list-style: none;
-   position: relative;
-   color:#33FF66;
-   left: 170px;
-   top: -27px; }
-
-#divMenu ul li{
-width: 170px;
-height: 40px;
-display: block;
-text-decoration: none;
-text-align: center;
-font-family: Verdana;
-font-size:14px;
-color:#000000;
-border:1px solid #eee;
-box-shadow: inset 7px 0 10px rgba(216,89,39, 0.5), inset 0 0 15px rgba(216,89,39, 0.6), inset 0 0 20px rgba(216,89,39, 0.8); }
-
-/*#divMenu li:hover {
-background-color:#CCCCFF;
+html, body {
+  font-family: Arial, Helvetica, san-serif;
 }
 
-#divMenu ul li:hover ul li a:hover {
-background-color:#CCCCFF;
+/* define a fixed width for the entire menu */
+.navigation {
+  width: 600px;
 }
 
-#divMenu a:hover {
-font-weight: bold;
-}*/
+/* reset our lists to remove bullet points and padding */
+.mainmenu, .submenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Make all links (main and submenu) have padding and background colors */
+.mainmenu a {
+  display: block;
+  background-color: #CCC;
+  text-decoration: none;
+  padding: 4px;
+  color: #000;
+}
+
+/* Add hover */
+.mainmenu a:hover {
+  background-color: #C5C5C5;
+}
+
+/* Inside a main menu when hovering it will show a submenu 
+changing max-heigh from 0 to 300 pixels */
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 300px;
+}
+
+/* Overwriting background color for submenu links */
+
+.submenu a {
+  background-color: #999;
+}
+
+/* Submenu hover effect */
+.submenu a:hover {
+  background-color: #666;
+}
+
+/* Overflow content is hidden and submenu state becomes initial
+we set max-height to 0 */
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+  -webkit-transition: all 0.5s ease-out;
+}
