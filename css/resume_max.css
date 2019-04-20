@@ -1,0 +1,115 @@
+body {
+    background-color: aquamarine;
+}
+
+header {
+    text-align: center;
+    font-size: 15px;
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 20px 0 20px 0;
+    border: 2px solid aliceblue;
+    border-radius: 8px;
+    color: chocolate;
+}
+
+article {
+    text-align: center;
+}
+
+h3 {
+    text-align: left;
+}
+
+h4 {
+    text-align: left;
+    text-decoration: underline #000000;
+}
+
+.bullets {
+    list-style: none;
+}
+
+.nodecor {
+    text-decoration: none;
+}
+
+.lipadding {
+    padding: 1px;
+}
+
+.summary {
+    border: 2px solid gray;
+    display: inline-block;
+}
+
+.summary_re {
+    border: 2px solid gray;
+    display: inline-block;
+}
+
+.tech_exp {
+    border: 2px solid gray;
+    display: inline-block;
+}
+
+.education {
+    border: 2px solid gray;
+    display: inline-block;
+}
+.proff_aff {
+    border: 2px solid gray;
+    display: inline-block;
+}
+
+.tech_acu {
+    border: 2px solid gray;
+    display: inline-block;
+}
+
+.most_r_emp {
+    border: 2px solid gray;
+    display: inline-block;
+}
+.mre {
+    text-align: left;
+    text-decoration: underline black;
+}
+.ops {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border: 2px solid antiquewhite;
+    border-radius: 8px;
+    
+}
+
+.languages {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border: 2px solid antiquewhite;
+    border-radius: 8px;
+}
+
+.databases {
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border: 2px solid antiquewhite;
+    border-radius: 8px;
+}
+
+ul li{
+    text-align: justify;
+}
+
+footer {
+    position: relative;
+    background-color: aliceblue;
+    text-align: center;
+}
+
